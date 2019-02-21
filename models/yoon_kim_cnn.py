@@ -1,5 +1,4 @@
 # https://arxiv.org/pdf/1408.5882.pdf
-# TODO: remove "static" from filename
 import random
 from typing import List, Optional
 
@@ -30,7 +29,7 @@ class YoonKimCnnStatic(Model):
         self.sess = session
         self.learning_rate = learning_rate
         self.input_length = input_length
-        assert static in ['non-static', 'static', 'rand']
+        assert static in ['non-static', 'static', 'rand', 'both']
         self.static = static
         self.embeddings_dim = embeddings_dim
         if initial_embeddings is None:
@@ -64,10 +63,20 @@ class YoonKimCnnStatic(Model):
         self.x = tf.placeholder(tf.int32, shape=(None, self.input_length))
         self.y = tf.placeholder(tf.float32, shape=(None, 1,))
         self.tf_is_traing_pl = tf.placeholder_with_default(True, shape=())
-        self.embeddings = tf.Variable(initial_value=self.initial_embeddings, trainable=(self.static != 'static'),
-                                      expected_shape=(None, self.embeddings_dim))
-
-        signal = tf.gather(self.embeddings, self.x)
+        if self.static == 'both':
+            self.embeddings_static = tf.Variable(initial_value=self.initial_embeddings, trainable=False,
+                                                 expected_shape=(None, self.embeddings_dim))
+            self.embeddings_nonstatic = tf.Variable(initial_value=self.initial_embeddings, trainable=True,
+                                                    expected_shape=(None, self.embeddings_dim))
+            signal_static = tf.gather(self.embeddings_static, self.x)
+            signal_nonstatic = tf.gather(self.embeddings_nonstatic, self.x)
+            signal = tf.concat([signal_static, signal_nonstatic], axis=2)
+            assert signal.shape[1:] == (self.input_length, self.embeddings_dim * 2)
+        else:
+            self.embeddings = tf.Variable(initial_value=self.initial_embeddings, trainable=(self.static != 'static'),
+                                          expected_shape=(None, self.embeddings_dim))
+            signal = tf.gather(self.embeddings, self.x)
+            assert signal.shape[1:] == (self.input_length, self.embeddings_dim)
 
         # Feature maps layer.
         self.feature_maps_list = []
@@ -135,7 +144,7 @@ class YoonKimCnnStatic(Model):
                 val_acc = self.evaluate(val_x, val_y, batch_size)
                 print("val_acc : " + str(val_acc))
                 chart.log_values(epoch_no+1, {'train_acc': np.mean(accs),
-                                              'test_acc': val_acc,
+                                              'val_acc': val_acc,
                                               'loss': np.mean(losses),
                                               'outs_std': np.mean(stds)})
             if epoch_no > 0 and epoch_no % ckpt_freq == 0:
