@@ -51,27 +51,33 @@ class MovieReviewSingleSentenceDatasetLoader:
             combined[w] = int_to_embedding[word_to_int[w]]
         return word_to_int, int_to_embedding, combined, int_to_word
 
-    def load_word_ids(self) -> Tuple[np.ndarray, np.ndarray, np.ndarray, np.ndarray, np.ndarray, np.ndarray]:
+    def load_file(self, fname) -> np.ndarray:
+        embeddings = self._file_to_word_ids(os.path.join(DATA_PATH, fname))
+        return embeddings
+
+    def load_word_ids(self, aug=False) -> Tuple[np.ndarray, np.ndarray, np.ndarray, np.ndarray, np.ndarray, np.ndarray]:
         """
         :return: (train_x, train_y, val_x, val_y, test_x, test_y)
         """
-        pos_file = os.path.join(DATA_PATH, 'rt-polarity-utf8.pos')
-        neg_file = os.path.join(DATA_PATH, 'rt-polarity-utf8.neg')
-        pos_embeddings = self._file_to_word_ids(pos_file)
-        neg_embeddings = self._file_to_word_ids(neg_file)
-        val_count = int(len(pos_embeddings) * VAL_SPLIT)
-        test_count = int(len(pos_embeddings) * TEST_SPLIT)
-        train_count = len(pos_embeddings) - test_count - val_count
+        train_x_pos = self.load_file('rt-polarity-utf8.train.pos' + ('.aug' if aug else ''))
+        train_x_neg = self.load_file('rt-polarity-utf8.train.neg' + ('.aug' if aug else ''))
+        train_x = np.concatenate([train_x_pos, train_x_neg])
+        train_y = np.array([1] * len(train_x_pos) + [0] * len(train_x_neg))
+        train_y = train_y.reshape((len(train_y), 1))
+        del train_x_pos, train_x_neg
 
-        val_beg = train_count
-        test_beg = val_beg + val_count
+        val_x_pos = self.load_file('rt-polarity-utf8.val.pos')
+        val_x_neg = self.load_file('rt-polarity-utf8.val.neg')
+        val_x = np.concatenate([val_x_pos, val_x_neg])
+        val_y = np.array([1] * len(val_x_pos) + [0] * len(val_x_neg))
+        val_y = val_y.reshape((len(val_y), 1))
+        del val_x_pos, val_x_neg
 
-        train_x = np.concatenate([pos_embeddings[:val_beg], neg_embeddings[:val_beg]])
-        train_y = np.array([1] * train_count + [0] * train_count).reshape((2 * train_count, 1))
+        test_x_pos = self.load_file('rt-polarity-utf8.test.pos')
+        test_x_neg = self.load_file('rt-polarity-utf8.test.neg')
+        test_x = np.concatenate([test_x_pos, test_x_neg])
+        test_y = np.array([1] * len(test_x_pos) + [0] * len(test_x_neg))
+        test_y = test_y.reshape((len(test_y), 1))
+        del test_x_pos, test_x_neg
 
-        val_x = np.concatenate([pos_embeddings[val_beg:test_beg], neg_embeddings[val_beg:test_beg]])
-        val_y = np.array([1] * val_count + [0] * val_count).reshape((2 * val_count, 1))
-
-        test_x = np.concatenate([pos_embeddings[test_beg:], neg_embeddings[test_beg:]])
-        test_y = np.array([1] * test_count + [0] * test_count).reshape((2 * test_count, 1))
         return train_x, train_y, val_x, val_y, test_x, test_y

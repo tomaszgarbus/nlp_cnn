@@ -1,0 +1,279 @@
+
+(8530, 40, 15)
+[[(0.84492576, 295, 1), (0.8232093, 3494, 7), (0.7771482, 1686, 32), (0.7677254, 5747, 20), (0.7657311, 1949, 10)], [(0.98059654, 111, 34), (0.920086, 4575, 6), (0.91648495, 5599, 7), (0.900136, 7366, 27), (0.8724122, 8430, 1)], [(1.0655442, 4583, 9), (0.98752725, 7054, 2), (0.95622194, 7197, 15), (0.9146507, 624, 5), (0.8985815, 7305, 6)], [(1.0194857, 1440, 10), (0.9223821, 21, 15), (0.8783752, 2893, 6), (0.87556756, 4258, 3), (0.82545257, 6062, 16)], [(0.9717938, 1905, 8), (0.84243286, 2470, 5), (0.82998246, 1244, 15), (0.82975215, 3879, 17), (0.8143682, 3636, 1)], [(1.0180483, 2127, 11), (0.92716086, 1210, 26), (0.9114913, 2613, 8), (0.8519684, 2026, 5), (0.8428168, 2654, 12)], [(0.85195655, 3956, 0), (0.82843477, 270, 4), (0.82777613, 4063, 10), (0.8083393, 150, 0), (0.80136824, 1026, 2)], [(0.90057886, 2470, 5), (0.8480487, 415, 34), (0.8229989, 2247, 4), (0.8109509, 1583, 15), (0.8103057, 2350, 1)], [(1.1896385, 4329, 9), (1.141609, 8316, 8), (1.1180903, 6560, 2), (1.0200622, 6430, 18), (0.9620645, 4760, 7)], [(0.9881406, 8114, 5), (0.9607127, 8488, 27), (0.9576019, 6894, 15), (0.9542422, 8515, 1), (0.9088503, 7987, 1)], [(1.0561748, 7496, 5), (1.0267806, 2545, 9), (0.9748224, 6004, 18), (0.8826225, 6386, 3), (0.8502281, 4509, 5)], [(0.974816, 7486, 16), (0.9462878, 8430, 2), (0.91778654, 7165, 13), (0.856747, 6113, 1), (0.856747, 5510, 21)], [(0.9732023, 4465, 17), (0.89479965, 7559, 19), (0.8619272, 6273, 23), (0.8542407, 7704, 20), (0.85369784, 5648, 7)], [(1.1236737, 4959, 2), (1.1069024, 8515, 1), (1.0755426, 6262, 16), (1.0595154, 4874, 17), (1.0543846, 7428, 1)], [(0.9287278, 7634, 5), (0.8946549, 5934, 30), (0.856286, 6067, 14), (0.84359044, 5962, 14), (0.8370941, 6773, 10)]]
+Filter 0 from those of size 3
+0.84492576 a savvy exploration
+0.8232093 a wonderful life
+0.7771482 covers our deepest
+0.7677254 the entertaining shallows
+0.7657311 to enjoy yourselves
+Filter 1 from those of size 3
+0.98059654 mtv puffery .
+0.920086 video targeted at
+0.91648495 tv special than
+0.900136 tv sitcom material
+0.8724122 this pathetic junk
+Filter 2 from those of size 3
+1.0655442 blows dumped on
+0.98752725 painfully leaden film
+0.95622194 this leaky script
+0.9146507 a 77-minute film
+0.8985815 booming bass-heavy soundtrack
+Filter 3 from those of size 3
+1.0194857 an intimate heart
+0.9223821 , lovely &
+0.8783752 and passionate heart
+0.87556756 is worth your
+0.82545257 amazingly lifelike tara
+Filter 4 from those of size 3
+0.9717938 imax cinema at
+0.84243286 astonishingly vivid holocaust
+0.82998246 extraordinarily well-acted drama
+0.82975215 imax sound system
+0.8143682 vividly conveys the
+Filter 5 from those of size 3
+1.0180483 receives excellent performances
+0.92716086 funeral " fun
+0.9114913 intimate french coming-of-age
+0.8519684 gets vivid performances
+0.8428168 the brilliant performances
+Filter 6 from those of size 3
+0.85195655  richly entertaining
+0.82843477 a dazzlingly self-assured
+0.82777613 a hugely enjoyable
+0.8083393  enormously likable
+0.80136824 a glorious groove
+Filter 7 from those of size 3
+0.90057886 astonishingly vivid holocaust
+0.8480487 breezes by .
+0.8229989 infectiously enthusiastic documentary
+0.8109509 richly handsome locations
+0.8103057 likeable thanks to
+Filter 8 from those of size 3
+1.1896385 convenient conveyor belt
+1.141609 goes overboard with
+1.1180903 awful snooze .
+1.0200622 incredibly dull .
+0.9620645 is caddyshack crossed
+Filter 9 from those of size 3
+0.9881406 is plainly dull
+0.9607127 from tv reruns
+0.9576019 prima donna shtick
+0.9542422 a woefully dull
+0.9088503 ararat feels like
+Filter 10 from those of size 3
+1.0561748 overlong soap opera
+1.0267806 tundra soap opera
+0.9748224 silly satanic business
+0.8826225 junk food cinema
+0.8502281 sappy ethnic sitcom
+Filter 11 from those of size 3
+0.974816 listless collection of
+0.9462878 pathetic junk is
+0.91778654 tepid waste of
+0.856747 dull , lifeless
+0.856747 dull , lifeless
+Filter 12 from those of size 3
+0.9732023 wears thin --
+0.89479965 shoddy makeup work
+0.8619272 mindless xxx mold
+0.8542407 wear thin with
+0.85369784 mechanical you can
+Filter 13 from those of size 3
+1.1236737 plot grows thin
+1.1069024 a woefully dull
+1.0755426 fabric softener bear
+1.0595154 is oppressively heavy
+1.0543846 ram dass fierce
+Filter 14 from those of size 3
+0.9287278 cloying pow drama
+0.8946549 bad special effects
+0.856286 bad slasher flick
+0.84359044 lame special effects
+0.8370941 ol' slasher plot
+3
+(8530, 40, 15)
+[[(0.9960027, 4748, 18), (0.963091, 7713, 6), (0.9058459, 7347, 12), (0.84848094, 7857, 7), (0.8451873, 6109, 0)], [(1.1145676, 6333, 7), (1.0752062, 5338, 21), (1.0746617, 5003, 13), (1.06791, 6495, 8), (1.0391468, 6915, 24)], [(1.0449989, 1270, 1), (0.9968407, 5781, 27), (0.9708625, 1135, 12), (0.92595315, 2718, 12), (0.91374564, 3343, 1)], [(0.8340493, 2276, 14), (0.82903916, 3283, 2), (0.8288068, 846, 9), (0.8180869, 1575, 19), (0.795281, 1708, 1)], [(1.0032691, 7482, 5), (0.99376416, 4799, 14), (0.97355604, 5703, 11), (0.9306401, 5771, 16), (0.92425764, 6685, 27)], [(1.2218894, 1231, 6), (0.9896451, 2930, 16), (0.92075276, 1906, 9), (0.90385437, 4059, 6), (0.8847375, 1782, 19)], [(1.1420499, 1023, 1), (1.0003382, 3270, 2), (0.9599497, 390, 3), (0.9477001, 960, 0), (0.9293056, 1894, 0)], [(1.1144748, 8254, 2), (0.8090476, 7430, 19), (0.79008174, 6816, 13), (0.77944595, 5645, 11), (0.74761117, 5229, 22)], [(1.1127623, 2253, 8), (1.105126, 1246, 2), (1.0638849, 2409, 6), (1.0448257, 2905, 10), (1.0433193, 590, 3)], [(1.1581961, 1653, 0), (1.0927855, 411, 10), (1.0854075, 118, 2), (1.0360395, 3924, 2), (1.0323262, 423, 0)], [(0.9742737, 8071, 3), (0.93649876, 4769, 8), (0.92966163, 7885, 8), (0.85865724, 8518, 11), (0.8495532, 7249, 8)], [(1.3788693, 3163, 6), (1.1877234, 1418, 4), (1.1784562, 2613, 8), (1.1266596, 1919, 20), (1.0550295, 2197, 13)], [(0.9412521, 4166, 26), (0.92718863, 3392, 16), (0.9088205, 1343, 5), (0.90582037, 4095, 15), (0.8921745, 1951, 3)], [(0.9673022, 6849, 2), (0.9098315, 1103, 5), (0.89958465, 3956, 1), (0.8775376, 713, 11), (0.87550867, 1135, 12)], [(1.1953273, 4804, 2), (1.0184418, 7197, 16), (1.0115861, 6621, 16), (0.96628684, 7054, 3), (0.92523855, 4969, 9)]]
+Filter 0 from those of size 4
+0.9960027 ( unintentionally ) funniest
+0.963091 and frustrating ) thing
+0.9058459 in this woefully hackneyed
+0.84848094 and unprovoked violence suffocate
+0.8451873   woefully pretentious
+Filter 1 from those of size 4
+1.1145676 . a garbled exercise
+1.0752062 with most late-night bull
+1.0746617 most likely doze off
+1.06791 a long soap opera
+1.0391468 but this cliff notes
+Filter 2 from those of size 4
+1.0449989  awesome creatures ,
+0.9968407 its remarkable camerawork and
+0.9708625 who appreciates intelligent ,
+0.92595315 the wondrous beats the
+0.91374564  great performances ,
+Filter 3 from those of size 4
+0.8340493 himself a deft pace
+0.82903916  the brilliant surfing
+0.8288068 far the lightest dogme
+0.8180869 of human frailty fascinates
+0.795281   timing is
+Filter 4 from those of size 4
+1.0032691 a spotty script add
+0.99376416 the stale plot and
+0.97355604  strained chelsea walls
+0.9306401 from stale parody to
+0.92425764 the clumsy comedy stealing
+Filter 5 from those of size 4
+1.2218894 and wickedly satisfying at
+0.9896451 his superb actors convey
+0.92075276 the deadpan comic face
+0.90385437 , kissing jessica stein
+0.8847375 a clever adaptation of
+Filter 6 from those of size 4
+1.1420499  sturdy , entertaining
+1.0003382 scott delivers a terrific
+0.9599497  is a wonderful
+0.9477001   an enjoyable
+0.9293056   an entertaining
+Filter 7 from those of size 4
+1.1144748 if deuces wild had
+0.8090476 , dull exposition and
+0.79008174 a  luxury car
+0.77944595 of holes and completely
+0.74761117 ridiculously inappropriate valley boy
+Filter 8 from those of size 4
+1.1127623 a brilliant piece of
+1.105126 this riveting world war
+1.0638849 politically potent piece of
+1.0448257 a stark portrait of
+1.0433193 exceedingly clever piece of
+Filter 9 from those of size 4
+1.1581961   a captivating
+1.0927855 a lively and enjoyable
+1.0854075 a gentle , compassionate
+1.0360395 a gracious , eloquent
+1.0323262   a splendid
+Filter 10 from those of size 4
+0.9742737  plot is almost
+0.93649876 inside danish cows falls
+0.92966163 is downright doltish and
+0.85865724 studiously inoffensive and completely
+0.8495532 as bad as its
+Filter 11 from those of size 4
+1.3788693 somewhat insightful french coming-of-age
+1.1877234 , witty , captivating
+1.1784562 and intimate french coming-of-age
+1.1266596 for fashioning an engrossing
+1.0550295 film acquires an undeniable
+Filter 12 from those of size 4
+0.9412521 en la carrera de
+0.92718863 up a powerful and
+0.9088205 and  exceptional performances
+0.90582037 tears , our sympathies
+0.8921745 sí mismo el rey
+Filter 13 from those of size 4
+0.9673022 too leisurely paced and
+0.9098315 that wonderfully weaves a
+0.89958465  richly entertaining and
+0.8775376 and entertaining thrillers 
+0.87550867 who appreciates intelligent ,
+Filter 14 from those of size 4
+1.1953273 the waterlogged script plumbs
+1.0184418 this leaky script barely
+1.0115861 nicky bad , 10
+0.96628684 painfully leaden film destined
+0.92523855 your appetite for canned
+3
+(8530, 40, 15)
+[[(1.1456354, 2180, 4), (1.0666263, 3067, 5), (0.9705173, 3034, 2), (0.9700272, 2977, 2), (0.95547926, 2613, 7)], [(1.0908269, 22, 9), (1.0447046, 924, 2), (1.0295544, 494, 5), (1.0031408, 1228, 11), (1.0004448, 1260, 2)], [(1.1878647, 6530, 17), (1.1488587, 4647, 6), (1.0788196, 5198, 14), (1.018084, 6951, 3), (1.0122472, 5396, 8)], [(1.2387482, 4858, 3), (1.132577, 8373, 7), (1.0591766, 7811, 20), (1.0348072, 6559, 3), (1.0162591, 7054, 2)], [(1.2976367, 4159, 3), (1.1466233, 3429, 2), (1.0940655, 596, 29), (1.0741248, 2158, 30), (1.0377764, 1737, 9)], [(1.3552248, 5960, 18), (1.1662078, 5976, 2), (1.1147852, 4349, 2), (1.0887195, 7777, 11), (1.0490687, 6621, 9)], [(1.212698, 1415, 10), (1.1276948, 1437, 14), (1.1063881, 676, 2), (1.0702356, 200, 10), (1.0180384, 1222, 12)], [(1.2517902, 8050, 4), (1.0988127, 5218, 22), (1.0107825, 5542, 3), (0.9923402, 8116, 22), (0.96983886, 4732, 11)], [(1.2461616, 3346, 2), (1.1698141, 2261, 2), (1.1448365, 1382, 5), (1.1291128, 3598, 3), (1.0052556, 3661, 20)], [(1.0148356, 3417, 3), (0.97988725, 1829, 22), (0.96846914, 2153, 9), (0.89142764, 1202, 13), (0.8853699, 3221, 16)], [(1.610388, 4349, 2), (1.1172929, 5742, 6), (1.1156104, 4759, 13), (0.97219276, 4931, 30), (0.9573355, 5228, 3)], [(1.1593624, 8447, 4), (1.1016915, 6037, 23), (0.94312394, 4859, 4), (0.89131045, 6716, 22), (0.8712574, 4642, 22)], [(1.1717044, 1639, 3), (1.061065, 1154, 3), (1.0343654, 2028, 18), (1.0291932, 3070, 4), (0.9574597, 843, 7)], [(1.2583026, 5683, 4), (1.2179828, 5852, 5), (0.9710244, 6776, 3), (0.9642978, 6530, 17), (0.93945277, 6604, 11)], [(1.2199237, 2985, 27), (1.2187284, 2246, 8), (1.2060279, 1244, 14), (1.0617317, 4, 12), (1.051467, 1564, 3)]]
+Filter 0 from those of size 5
+1.1456354 cuaron gets vivid , convincing
+1.0666263 energy , wit and warmth
+0.9705173 kiarostami has crafted a deceptively
+0.9700272 rubbo runs through a remarkable
+0.95547926 nuanced and intimate french coming-of-age
+Filter 1 from those of size 5
+1.0908269 imagery and hypnotic music composed
+1.0447046 sensitive , insightful and beautifully
+1.0295544 rare , exhilarating cinematic delights
+1.0031408 for a haunting literary detective
+1.0004448 travels a fascinating arc from
+Filter 2 from those of size 5
+1.1878647 pompous windbags drone on inanely
+1.1488587 far-fetched events that first-time writer-director
+1.0788196 ricochets from humor to violence
+1.018084 deflates his piece of puffery
+1.0122472 sugary sentiment and withholds delivery
+Filter 3 from those of size 5
+1.2387482 fifty car pileup of cliches
+1.132577 into an excruciating film school
+1.0591766 into glucose sentimentality and laughable
+1.0348072 didactic and dull documentary glorifying
+1.0162591 a painfully leaden film destined
+Filter 4 from those of size 5
+1.2976367 emotionally and spiritually compelling journey
+1.1466233 brave and sweetly rendered love
+1.0940655 intimate and ultimately tragic heartache
+1.0741248 striking deep chords of sadness
+1.0377764 emotionally and narratively complex filmmaking
+Filter 5 from those of size 5
+1.3552248 spray cheese and underarm noises
+1.1662078 a coarse and stupid gross-out
+1.1147852 deadly dull , pointless meditation
+1.0887195  anarchy gets tiresome ,
+1.0490687 about hanukkah is numbingly bad
+Filter 6 from those of size 5
+1.212698 charming french comedy that feels
+1.1276948 intelligent french drama that deftly
+1.1063881 a modest pleasure that accomplishes
+1.0702356 intelligent grasp of human foibles
+1.0180384 poignant japanese film that explores
+Filter 7 from those of size 5
+1.2517902 stiflingly unfunny and unoriginal mess
+1.0988127 falls about ten feet onto
+1.0107825 bogged down by an overly
+0.9923402 stupid stunts or uproariously rude
+0.96983886 drifts aimlessly for 90 minutes
+Filter 8 from those of size 5
+1.2461616 chaiken ably balances real-time rhythms
+1.1698141 an unflinching , complex portrait
+1.1448365 and brilliantly acted psychological drama
+1.1291128 an immediacy and an intimacy
+1.0052556 appreciated equally as an abstract
+Filter 9 from those of size 5
+1.0148356 an irresistible blend of warmth
+0.97988725 of great charm , generosity
+0.96846914 that moral favorite : friends
+0.89142764 dizzying heights achieved by motocross
+0.8853699 the enduring strengths of women
+Filter 10 from those of size 5
+1.610388 deadly dull , pointless meditation
+1.1172929 smoochy is a rancorous curiosity
+1.1156104 thematically complex -- bowel movements
+0.97219276 leaves blue crush waterlogged .
+0.9573355 movie is so thoughtlessly assembled
+Filter 11 from those of size 5
+1.1593624 vapid  exercise to appropriate
+1.1016915 dull , ridiculous attempt at
+0.94312394 stale , overused cocktail using
+0.89131045 dirty , tasteless feel .
+0.8712574 dumb fart jokes . 
+Filter 12 from those of size 5
+1.1717044 solid , spooky entertainment worthy
+1.061065 warm but realistic meditation on
+1.0343654 fine , understated piece of
+1.0291932 sensual metaphorical dramatization of sexual
+0.9574597 leisurely paced scottish comedy --
+Filter 13 from those of size 5
+1.2583026 feels like a low-budget hybrid
+1.2179828 too many ideas floating around
+0.9710244 smacks of purely commercial motivation
+0.9642978 pompous windbags drone on inanely
+0.93945277 anything remotely interesting or suspenseful
+Filter 14 from those of size 5
+1.2199237 shrewd , powerful act abroad
+1.2187284 humane and important holocaust movies
+1.2060279 sensitive , extraordinarily well-acted drama
+1.0617317 honest and keenly observed that
+1.051467 uncluttered , resonant gem that

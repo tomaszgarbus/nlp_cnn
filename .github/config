@@ -1,0 +1,8 @@
+[core]
+	repositoryformatversion = 0
+	filemode = true
+	bare = false
+	logallrefupdates = true
+[remote "gh"]
+	url = https://github.com/tomaszgarbus/nlp_cnn
+	fetch = +refs/heads/*:refs/remotes/gh/*
